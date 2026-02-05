@@ -9,7 +9,13 @@
     [
       "@semantic-release/npm",
       {
-        "npmPublish": true
+        "npmPublish": false
+      }
+    ],
+    [
+      "@semantic-release/exec",
+      {
+        "publishCmd": "pnpm publish --provenance --no-git-checks --access public"
       }
     ],
     "@semantic-release/github",
