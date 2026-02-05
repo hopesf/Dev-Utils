@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/hopesf/Dev-Utils/compare/v1.0.0...v1.1.0) (2026-02-05)
+
+
+### Features
+
+* add config utilities export ([80ec849](https://github.com/hopesf/Dev-Utils/commit/80ec84954f99c96e39995c6830c0dc13bcf6db0a))
+
 # 1.0.0 (2026-02-05)
 
 
