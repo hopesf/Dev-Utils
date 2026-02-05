@@ -1,6 +1,6 @@
 {
   "name": "@hopesf/dev-utils",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Modern Node Utility Toolkit",
   "type": "module",
   "repository": {
