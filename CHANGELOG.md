@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/hopesf/Dev-Utils/compare/v1.1.0...v1.2.0) (2026-02-05)
+
+
+### Features
+
+* add utility functions (formatDate and sleep) ([16d0a69](https://github.com/hopesf/Dev-Utils/commit/16d0a6954e99edfdd44ac74f0d9223bd07db4249))
+
 # [1.1.0](https://github.com/hopesf/Dev-Utils/compare/v1.0.0...v1.1.0) (2026-02-05)
 
 
