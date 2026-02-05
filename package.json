@@ -1,0 +1,58 @@
+{
+  "name": "@hopesf/dev-utils",
+  "version": "0.0.1",
+  "description": "Modern Node Utility Toolkit",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hopesf/Dev-Utils.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest",
+    "provenance": true
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "eslint .",
+    "test": "vitest",
+    "test:ci": "vitest run",
+    "prepare": "node -e \"if (process.env.CI !== 'true') { require('child_process').execSync('husky', {stdio: 'inherit'}); }\""
+  },
+  "keywords": [
+    "node",
+    "utils",
+    "toolkit"
+  ],
+  "author": "Selim Gecin",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/config-conventional": "^20.4.1",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/exec": "^7.1.0",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^12.0.3",
+    "@semantic-release/npm": "^13.1.3",
+    "commitlint": "^20.4.1",
+    "eslint": "^9.0.0",
+    "husky": "^9.1.7",
+    "prettier": "^3.0.0",
+    "semantic-release": "^25.0.3",
+    "tsup": "^8.0.0",
+    "typescript": "^5.4.0",
+    "vitest": "^1.6.0"
+  }
+}
