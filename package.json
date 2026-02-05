@@ -9,8 +9,7 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
-    "tag": "latest",
-    "provenance": true
+    "tag": "latest"
   },
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
