@@ -26,12 +26,6 @@ jobs:
         with:
           node-version: "20.x"
           registry-url: "https://npm.pkg.github.com"
-          scope: "@hopesf"
-
-      - name: Configure Git
-        run: |
-          git config user.name "GitHub Actions Bot"
-          git config user.email "actions@github.com"
 
       - name: Install dependencies
         run: npm ci
@@ -43,7 +37,7 @@ jobs:
         run: |
           cp package.json dist/angular-dev-utils/
           cp README.md dist/angular-dev-utils/
-          cp LICENSE dist/angular-dev-utils/ 2>/dev/null || echo "No LICENSE file found"
+          cp LICENSE dist/angular-dev-utils/
 
       - name: Publish to GitHub Packages
         run: |
