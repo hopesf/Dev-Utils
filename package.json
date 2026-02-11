@@ -21,7 +21,7 @@
     "url": "https://github.com/hopesf/Dev-Utils/issues"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "access": "public"
   },
   "scripts": {
     "ng": "ng",
