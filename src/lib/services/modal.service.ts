@@ -17,7 +17,7 @@ export class ModalService {
   constructor(
     private appRef: ApplicationRef,
     private injector: EnvironmentInjector
-  ) {}
+  ) { }
 
   open<T, R = any>(component: Type<T>, config: ModalConfig = {}): ModalRef<R> {
     // Close existing modal if any
@@ -28,7 +28,7 @@ export class ModalService {
     // Create modal wrapper
     const modalWrapper = document.createElement('div');
     modalWrapper.className = this.getModalWrapperClasses(config);
-    
+
     // Create backdrop
     const backdrop = document.createElement('div');
     backdrop.className = 'adu-modal-backdrop';
