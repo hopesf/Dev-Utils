@@ -14,11 +14,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hopesf/Dev-Utils.git"
+    "url": "https://github.com/hopesf/angular-dev-utils.git"
   },
-  "homepage": "https://github.com/hopesf/Dev-Utils#readme",
+  "homepage": "https://github.com/hopesf/angular-dev-utils#readme",
   "bugs": {
-    "url": "https://github.com/hopesf/Dev-Utils/issues"
+    "url": "https://github.com/hopesf/angular-dev-utils/issues"
   },
   "publishConfig": {
     "access": "public"

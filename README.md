@@ -2,7 +2,7 @@
 
 Modern Angular component library with standalone components and Tailwind CSS.
 
-[![CI](https://github.com/hopesf/Dev-Utils/actions/workflows/ci.yml/badge.svg)](https://github.com/hopesf/Dev-Utils/actions/workflows/ci.yml)
+[![CI](https://github.com/hopesf/angular-dev-utils/actions/workflows/ci.yml/badge.svg)](https://github.com/hopesf/angular-dev-utils/actions/workflows/ci.yml)
 [![npm version](https://badge.fury.io/js/%40hopesf%2Fangular-dev-utils.svg)](https://www.npmjs.com/package/@hopesf/angular-dev-utils)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -41,10 +41,6 @@ export class ExampleComponent {
   }
 }
 ```
-
-## Documentation
-
-For full documentation, visit the [main README](../../README.md).
 
 ## Components
 
